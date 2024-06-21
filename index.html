@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My first three.js app</title>
+        <style>
+			@font-face {
+				font-family: SCIFI;
+				src: url(assets/Sterion.ttf);
+			}
+
+            body { margin: 0; }
+            canvas { display: block; }
+			#info {
+				position: absolute;
+				top: 0px; width: 100%;
+				color: #fffefed8;
+				padding: 15px;
+				font-family: SCIFI;
+				font-size:13px;
+				font-weight: bold;
+				text-align:center;
+			}
+        </style>
+	</head>
+	<body>
+		<div id="info">Demo of <a href="http://threejs.org" target="_blank"> AMDM</a>, developed by <a href="https://github.com/Yi-Shi94" target="_blank">Yi Shi</a>, powered by <a href="http://threejs.org" target="_blank">threejs</a></div>
+		<script type="module" src="main.js"></script>
+        
+	</body>
+</html>
